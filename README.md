@@ -22,18 +22,7 @@ Ogni progetto include obiettivi chiari di completamento e, ove necessario, rifer
 
 ---
 
-### Progetto 2 — Gestore di Liste della Spesa
-**Obiettivo:** apprendere l’uso di liste e file di testo.
-
-**Pattern suggeriti:**
-- Funzioni `add_item()`, `remove_item()`, `show_list()`.
-- Lettura/scrittura su file `.txt` con `open()` e modalità `"r"` e `"w"`.
-- Utilizzo di un ciclo `while True` per mantenere il programma attivo fino alla scelta di uscita.
-
-**Checklist completamento:**
-- [ ] Aggiunge, rimuove e visualizza correttamente gli elementi.  
-- [ ] I dati vengono salvati su file e ricaricati correttamente.  
-- [ ] L’interfaccia è testuale e facilmente leggibile.  
+### Progetto 2 —  
 
 ---
 

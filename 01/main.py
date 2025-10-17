@@ -1,22 +1,30 @@
 def calculator():
-    print("Calcolatrice semplice")
+    while True:
 
-    num1 = float(input("Inserisci il primo numero"))
-    operazione = input("Scgeli operazione:(+, -, /, *).")
-    num2 = float(input("Inserisci il secondo numero"))
+        print("Calcolatrice semplice")
 
-    if operazione == "+":
-        print("Resultato:", num1 + num2)
-    elif operazione == "-":
-        print("Resultato:", num1 - num2)
-    elif operazione == "*":
-        print("Resultato:", num1 * num2)
-    elif operazione == "/":
-        if num2 != 0:
-            print("Resultato:", num1 / num2)
+        num1 = float(input("Inserisci il primo numero: "))
+        operazione = input("Scegli operazione (+, -, /, *): ")
+        num2 = float(input("Inserisci il secondo numero: "))
+
+        if operazione == "+":
+            print("Risultato:", num1 + num2)
+        elif operazione == "-":
+            print("Risultato:", num1 - num2)
+        elif operazione == "*":
+            print("Risultato:", num1 * num2)
+        elif operazione == "/":
+            if num2 != 0:
+                print("Risultato:", num1 / num2)
+            else:
+                print("Errore: divisione per zero")
         else:
-            print("Errore")
-    else:
-        print("Operazione sconosciuta")
+            print("Operazione sconosciuta")
+            continue
+
+        again = input("Vuoi continuare? (si/no): ").lower()
+        if again != "si":
+            print("Ciao")
+            break
 
 calculator()

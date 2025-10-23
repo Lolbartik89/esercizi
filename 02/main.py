@@ -32,8 +32,8 @@ def main():
     shopping_list = load_list(filename)
     while True:
         print("-Menu-")
-        print("1.Mostra la lista")
-        print("2.Aggiungi un prodotto")
+        print("1. Mostra la lista")
+        print("2. Aggiungi un prodotto")
         print("3. Rimuovi un prodotto")
         print("4. Exit")
         choice = input("Scegli un operazioe (1-4):")
